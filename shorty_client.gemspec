@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/shorty/client.rb",
+     "shorty_client.gemspec",
      "spec/shorty_client_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
