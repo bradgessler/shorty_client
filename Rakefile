@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "shorty_client"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Work with your shorty server from Ruby}
+    gem.description = %Q{The shorty client is a convienent wrapper for interacting with your shorty server from your Ruby projects.}
     gem.email = "brad@bradgessler.com"
     gem.homepage = "http://github.com/bradgessler/shorty_client"
     gem.authors = ["Brad Gessler"]

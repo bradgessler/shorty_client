@@ -1,6 +1,16 @@
-= shorty_client
+= Shorty client
 
-Description goes here.
+Shorty makes is easier to implement your very own URL shortener. The client is designed to be used with a Shorty server to make it easier to shorten URLs from your ruby application.
+
+    Shorty::Client.new "http://my.shorty.server/" do |s|
+      if short_url = s.shorten "http://www.google.com/"
+        puts "It worked! See it at #{short_url}"
+      else
+        puts shorty.errors.join(', ')
+      end
+    end
+
+Pretty rad!
 
 == Note on Patches/Pull Requests
  
